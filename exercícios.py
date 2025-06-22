@@ -6,10 +6,15 @@ import math
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
-#numero_01 = int(input("Inserir um número inteiro"))
-#numero_02 = int(input("Inserir outro número inteiro"))
-#resultado = numero_01 // numero_02
-#print(resultado)
+# try:
+#     numero_01 = int(input("Inserir um número inteiro"))
+#     numero_02 = int(input("Inserir outro número inteiro"))
+#     resultado = numero_01 // numero_02
+#     print(resultado)
+# except ZeroDivisionError:
+#     print("integer divisio or modulo by zero ")
+# except KeyboardInterrupt:
+#     print("acho que tu não quis apertar ")
 
 # #### Números de Ponto Flutuante (`float`)
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
@@ -31,8 +36,8 @@ import math
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o mês por extenso.
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
-data_do_usuario = input("Insira uma data no formato dd/mm/aaa: ")
-lista_de_dia_mes_ano = data_do_usuario.split("/")
-print(f"O elemento 1 e o: {lista_de_dia_mes_ano[0]}")
-print(f"O elemento 2 e o: {lista_de_dia_mes_ano[1]}")
-print(f"O elemento 3 e o: {lista_de_dia_mes_ano[2]}")
+#data_do_usuario = input("Insira uma data no formato dd/mm/aaa: ")
+#lista_de_dia_mes_ano = data_do_usuario.split("/")
+#print(f"O elemento 1 e o: {lista_de_dia_mes_ano[0]}")
+#print(f"O elemento 2 e o: {lista_de_dia_mes_ano[1]}")
+#print(f"O elemento 3 e o: {lista_de_dia_mes_ano[2]}")
