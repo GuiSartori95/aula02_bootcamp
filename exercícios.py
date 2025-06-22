@@ -18,7 +18,21 @@ import math
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
-raio_do_circulo= float(input("Digite o raio: "))
-area_do_circulo = math.pi * raio_do_circulo ** 2
+#raio_do_circulo= float(input("Digite o raio: "))
+#area_do_circulo = math.pi * raio_do_circulo ** 2
+#area_do_circulo_formatada = "{:.2f}".format(area_do_circulo)
 
-print(f"{area_do_circulo:.2f})
+#print(area_do_circlo_formatada)
+
+# #### Strings (`str`)
+# 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+# 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+# 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços.
+# 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o mês por extenso.
+# 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+
+data_do_usuario = input("Insira uma data no formato dd/mm/aaa: ")
+lista_de_dia_mes_ano = data_do_usuario.split("/")
+print(f"O elemento 1 e o: {lista_de_dia_mes_ano[0]}")
+print(f"O elemento 2 e o: {lista_de_dia_mes_ano[1]}")
+print(f"O elemento 3 e o: {lista_de_dia_mes_ano[2]}")
