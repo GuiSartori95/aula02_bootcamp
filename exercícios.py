@@ -10,12 +10,25 @@ import math
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 #RESOLUÇÃO
-numero_usuario = int(input("Insira um número aqui: "))
-resultado = numero_usuario // 5
-print(resultado)
+# numero_usuario = int(input("Insira um número aqui: "))
+# resultado = numero_usuario // 5
+# print(resultado)
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+# #RESOLUÇÃO
+# numero_01 = int(input("Informe um número aqui: "))
+# numero_02 = int(input("Informe outro número aqui: "))
+
+# resultado = numero_01 * numero_02
+# print(f"O resultado é {resultado}")
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+Numero_01 = int(input("Insira um número inteiro: "))
+Numero_02 = int(input("Insira outro número inteiro: "))
+
+resultado = Numero_01 // Numero_02
+print(f"O resultado desta divisão é: {resultado}")
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
 # try:
