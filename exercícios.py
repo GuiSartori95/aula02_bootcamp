@@ -1,6 +1,13 @@
 import math
 # #### Inteiros (`int`)
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
+
+numero_01 = int(input("Digite o primeiro número: "))
+numero_02 = int(input("Digite o segundo número: "))
+
+resultado = numero_01 + numero_02
+print(resultado)
+
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
@@ -41,3 +48,19 @@ import math
 #print(f"O elemento 1 e o: {lista_de_dia_mes_ano[0]}")
 #print(f"O elemento 2 e o: {lista_de_dia_mes_ano[1]}")
 #print(f"O elemento 3 e o: {lista_de_dia_mes_ano[2]}")
+
+# #### Booleanos (`bool`)
+
+# 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+# 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+# 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+# 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+# 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+# #### try-except e if
+
+# 21: Conversor de Temperatura
+# 22: Verificador de Palíndromo
+# 23: Calculadora Simples
+# 24: Classificador de Números
+# 25: Conversão de Tipo com Validação
