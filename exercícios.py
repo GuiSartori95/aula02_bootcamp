@@ -23,12 +23,16 @@ import math
 # print(f"O resultado é {resultado}")
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-Numero_01 = int(input("Insira um número inteiro: "))
-Numero_02 = int(input("Insira outro número inteiro: "))
-
-resultado = Numero_01 // Numero_02
-print(f"O resultado desta divisão é: {resultado}")
-
+# #RESOLUÇÃO
+# try:
+#     Numero_01 = int(input("Insira um número inteiro: "))
+#     Numero_02 = int(input("Insira outro número inteiro: "))
+#     resultado = Numero_01 // Numero_02
+#     print(f"O resultado desta divisão é: {resultado}")
+# except ZeroDivisionError:
+#     print("integer division ot modulo by zero")
+# except KeyboardInterrupt:
+#     print("Acho que tu não quis apertar ai")
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
 # try:
@@ -43,9 +47,35 @@ print(f"O resultado desta divisão é: {resultado}")
 
 # #### Números de Ponto Flutuante (`float`)
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+# #RESOLUÇÃO
+# numero_01 = float(input("Insira um número aqui: "))
+# numero_02 = float(input("Insira outro número aqui: "))
+# resultado = numero_01 + numero_02
+# print(f"O resultado da soma é: {resultado}")
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+# #RESOLUÇÃO
+# num01 = float(input("Insira um número aqui: "))
+# num02 = float(input("Insira outro número aqui: "))
+# resultado = num01 + num02
+# Média = resultado // 2
+# print(f"A média entre {num01} e {num02} é: {Média}")
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+# #RESOLUÇÃO
+# base = float(input("Insira a base aqui: "))
+# expoente = float(input("Insira o exepoente aqui: "))
+# resultado = base ** expoente
+
+# print(f"O resultado é {resultado}")
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+
+celsius = float(input("Informe aqui a temperatua em graus C: "))
+fahrenheit = (9/5 * celsius) + 32
+print(f"A temperatura de {celsius}C corresponde a {fahrenheit} F")
+
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
 #raio_do_circulo= float(input("Digite o raio: "))
