@@ -70,10 +70,10 @@ import math
 # print(f"O resultado é {resultado}")
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
-
-celsius = float(input("Informe aqui a temperatua em graus C: "))
-fahrenheit = (9/5 * celsius) + 32
-print(f"A temperatura de {celsius}C corresponde a {fahrenheit} F")
+##RESOLUÇÃO
+# celsius = float(input("Informe aqui a temperatua em graus C: "))
+# fahrenheit = (9/5 * celsius) + 32
+# print(f"A temperatura de {celsius}C corresponde a {fahrenheit} F")
 
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
@@ -86,20 +86,51 @@ print(f"A temperatura de {celsius}C corresponde a {fahrenheit} F")
 
 # #### Strings (`str`)
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
-# 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
-# 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços.
-# 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o mês por extenso.
-# 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+# #RESOLUÇÃO
+# texto = str(input("Escreva algo neste lugar: "))
+# maiusculo = texto.upper()
+# print(maiusculo)
 
-#data_do_usuario = input("Insira uma data no formato dd/mm/aaa: ")
-#lista_de_dia_mes_ano = data_do_usuario.split("/")
-#print(f"O elemento 1 e o: {lista_de_dia_mes_ano[0]}")
-#print(f"O elemento 2 e o: {lista_de_dia_mes_ano[1]}")
-#print(f"O elemento 3 e o: {lista_de_dia_mes_ano[2]}")
+# 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+# #RESOLUÇÃO
+# nome_usuario = str(input("Escreva seu nome neste lugar: "))
+# minusculo = nome_usuario.lower()
+# print(minusculo)
+
+# 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços.
+# #RESOLUÇÃO
+# frase = str(input("Insira uma frase aqui: "))
+# frase_sem_espaco = frase.replace(" ","")
+# print(frase_sem_espaco)
+
+# 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o mês por extenso.
+# #RESOLUÇÃO
+# data_do_usuario = input("Insira uma data no formato dd/mm/aaa: ")
+# lista_de_dia_mes_ano = data_do_usuario.split("/")
+# print(f"O elemento 1 é o: {lista_de_dia_mes_ano[0]}")
+# print(f"O elemento 2 é o: {lista_de_dia_mes_ano[1]}")
+# print(f"O elemento 3 é o: {lista_de_dia_mes_ano[2]}")
+
+# 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+# #RESOLUÇÃO 1
+# palavras = ["Meu", "amigo", "é", "gremista"]
+# unificada = " ".join(palavras)
+# print(unificada)
 
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+# #RESOLUÇÃO 1
+# num01 = 20
+# num02 = 30
+# comparacao = num01 > num02
+# print(comparacao)
+
+Esporte = str(input("Digite o esporte que você deseja praticar: "))
+material = str(input("Você tem tênis? (sim/não): ")).strip().lower() == "sim"
+pode_jogar = esporte = "futebol" and material
+print(pode_jogar)
+
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
