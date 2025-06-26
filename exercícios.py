@@ -126,15 +126,44 @@ import math
 # comparacao = num01 > num02
 # print(comparacao)
 
-Esporte = str(input("Digite o esporte que você deseja praticar: "))
-material = str(input("Você tem tênis? (sim/não): ")).strip().lower() == "sim"
-pode_jogar = esporte = "futebol" and material
-print(pode_jogar)
+# #RESOLUÇÃO 2
+# Esporte = str(input("Digite o esporte que você deseja praticar nesta quadra de futebol: ")) == "futebol"
+# material = str(input("Você tem tênis? (sim/não): ")).strip().lower() == "sim"
+# pode_jogar = Esporte and material
+# print(pode_jogar)
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+# #RESOLUÇÃO
+# Casaco1 = str(input("Hoje está frio, você vai usar 2 casacos?(sim/não): ")) == "sim"
+# Casaco2 = str(input("E você vai usar pelo menos 1 casaco? (sim/não): ")) == "sim"
+
+# Pode_sair_na_rua = Casaco1 or Casaco2
+# if Pode_sair_na_rua:
+#     print("Pode sair na rua!!")
+# else:
+#     print("Não pode sair de casa")
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+# #RESOLUÇÃO
+# pergunta1 = str(input("Você gosta de mentir? (sim/não): ")) == "não"
+# resposta = not pergunta1
+# print(resposta)
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+# #RESOLUÇÃO
+# numero1 = int(input("Insira um número: "))
+# numero2 = int(input("Insira outro número: "))
+# comparativo = numero1 == numero2
+# print(comparativo)
+
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+# #RESOLUÇÃO
+numero1 = int(input("Insira um número: "))
+numero2 = int(input("Insira outro número: "))
+comparativo = numero1 != numero2
+print(comparativo)
+
 
 # #### try-except e if
 
