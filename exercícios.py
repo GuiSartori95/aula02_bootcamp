@@ -159,16 +159,97 @@ import math
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 # #RESOLUÇÃO
-numero1 = int(input("Insira um número: "))
-numero2 = int(input("Insira outro número: "))
-comparativo = numero1 != numero2
-print(comparativo)
+# numero1 = int(input("Insira um número: "))
+# numero2 = int(input("Insira outro número: "))
+# comparativo = numero1 != numero2
+# print(comparativo)
 
 
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+# #RESOLUÇÃO
+# try:
+#     celsius = float(input("Digite a temperatura: "))
+#     Fahrenheit = (celsius * 1.8) + 32
+#     print(f"A tempeatura convertida é {Fahrenheit}")
+# except:
+#     print("Bah, tu não digitou uma tempratura tchê!!!")
+
 # 22: Verificador de Palíndromo
+# #RESOLUÇÃO
+# try:
+#     #não precisa de str(input..) pois o input já retorna str, então fica reduante e não cumpre o propósito
+#     texto = input("Digite uma palavra para verificar se é um políndromo: ")
+#     #item necessário para tratar entrada vazia
+#     if not texto:
+#         raise ValueError("Você não digitou nada.")
+#     #Variável para padronizar a entrada do usuário
+#     texto_formatado = texto.strip().lower()
+#     #Condicional que dirá se é ou não um políndromo
+#     if texto_formatado == texto_formatado[::-1]:
+#          print("✅ É um palíndromo!")
+#     else:
+#         print("❌ Não é um palíndromo.")
+# #aqui evitará um erro do tipo Valor (valuerror)        
+# except ValueError as erro:
+#     print(f"Erro: {erro}")
+# #aqui evita qualquer tipo de erro, utilziando a variável {e}, ela que vai trazer a mensagem do motivo do erro
+# except Exception as e:
+#     print(f"Ocorreu um erro inesperado: {e}")
+
 # 23: Calculadora Simples
+##RESOLUÇÂO
+# try:
+#     numero01 = float(input("Digite um número: "))
+#     operador = input("Digite um operador (+,-,/,*): ")
+#     numero02 = float(input("Digite outro número: "))
+#     if operador == "+":
+#         resultado = numero01 + numero02
+#     elif operador == "-":
+#         resultado = numero01 - numero02
+#     elif operador == "/":
+#         if numero01 == 0:
+#             raise ZeroDivisionError("Não é possível divir com zero")
+#         resultado = numero01 / numero02
+#     elif operador == "*":
+#         resultado = numero01 * numero02
+#     else:    
+#         raise ValueError("operador inválido")
+
+#     print(f"Resultado: {resultado}")
+# # Tratamento de erros
+# except ValueError as erro:
+#     print(f"❌ Erro de valor: {erro}")
+# except ZeroDivisionError as erro:
+#     print(f"🚫 Erro matemático: {erro}")
+# except Exception as e:
+#     print(f"⚠️ Erro inesperado: {e}")
+
 # 24: Classificador de Números
+# RESOLUÇÃO
+# try:
+#     numero = float(input("Digite um número: "))
+
+#     if numero > 0:
+#         print("✅ O número é positivo.")
+#     elif numero < 0:
+#         print("🚫 O número é negativo.")
+#     else:
+#         print("⚪ O número é zero.")
+
+# except ValueError:
+#     print("❌ Erro: você deve digitar um número válido.")
+
 # 25: Conversão de Tipo com Validação
+#RESOLUÇÃO
+try:
+    valor = input("Digite um número inteiro: ")
+
+    # Validação: tenta converter o valor para inteiro
+    numero_inteiro = int(valor)
+
+    print(f"✅ Conversão bem-sucedida: {numero_inteiro} é um inteiro.")
+
+except ValueError:
+    print("❌ Erro: o valor digitado não é um número inteiro válido.")
